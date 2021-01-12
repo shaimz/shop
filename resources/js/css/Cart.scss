@@ -1,0 +1,30 @@
+.collection-item {
+    .item-img {
+        display: flex;
+        border-bottom: 1px solid rgba(48, 48, 48, 0.1);
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        img {
+            height: 100%;
+        }
+    }
+    .item-desc {
+        padding: 15px;
+        width: 70%;
+        .item-price {
+            b span {
+                font-size: 18px;
+            }
+        }
+        .title {
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .add-remove {
+            p {
+                margin: 0;
+            }
+        }
+    }
+}
